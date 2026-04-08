@@ -58,7 +58,7 @@
     <header class="fixed w-full bg-white/90 backdrop-blur-md shadow-sm z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <div class="text-2xl font-black text-gray-900 tracking-tighter">チャットボット<span class="text-brand-600">EX</span></div>
-            <a href="#cta" class="hidden md:inline-block bg-gray-900 text-white px-6 py-2.5 rounded-full font-bold hover:bg-gray-800 transition shadow-md">無料シミュレーション</a>
+            <a href="#cta" class="hidden md:inline-block bg-gray-900 text-white px-6 py-2.5 rounded-full font-bold hover:bg-gray-800 transition shadow-md">無料お問い合わせ</a>
         </div>
     </header>
 
@@ -70,18 +70,15 @@
                     <span class="bg-brand-100 text-brand-700 px-2 py-0.5 rounded-full mr-2 text-xs">New</span> CPA高騰にお悩みのマーケターへ
                 </div>
                 
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-[1.25] mb-6 text-gray-900 tracking-tight">
-                    <span class="inline-block whitespace-nowrap">まだ</span><span class="inline-block whitespace-nowrap">「穴の空いたバケツ」に</span><wbr>
-                    <span class="inline-block whitespace-nowrap bg-clip-text text-transparent bg-gradient-to-r from-brand-600 to-blue-600 pb-1">広告費を</span><span class="inline-block whitespace-nowrap bg-clip-text text-transparent bg-gradient-to-r from-brand-600 to-blue-600 pb-1">注ぎますか？</span>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-[1.25] mb-6 text-gray-900 tracking-tight break-keep">
+                    まだ「穴の空いたバケツ」に<br class="hidden lg:block">
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-brand-600 to-blue-600 pb-1">広告費を注ぎますか？</span>
                 </h1>
                 
                 <p class="text-gray-600 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                    <span class="inline-block whitespace-nowrap text-gray-900 font-bold underline decoration-brand-300 decoration-4 underline-offset-4">LPから離脱する</span>
-                    <span class="inline-block whitespace-nowrap">ユーザーの大多数は、</span><wbr>
-                    <span class="inline-block whitespace-nowrap">ただ「迷っている」だけ。</span><br class="hidden md:block">
-                    <span class="inline-block whitespace-nowrap">離脱の瞬間に</span><span class="inline-block whitespace-nowrap text-brand-600 font-bold">ポップアップで救い出し、</span><wbr>
-                    <span class="inline-block whitespace-nowrap">1to1の対話でCVへ導く。</span><br class="hidden md:block">
-                    <span class="inline-block whitespace-nowrap mt-2">完全成果報酬型・</span><span class="inline-block whitespace-nowrap mt-2">CV特化チャットボット</span>
+                    <span class="text-gray-900 font-bold underline decoration-brand-300 decoration-4 underline-offset-4">LPから離脱する</span>ユーザーの大多数は、ただ「迷っている」だけ。<br class="hidden md:block">
+                    離脱の瞬間に<span class="text-brand-600 font-bold">ポップアップで救い出し、</span>1to1の対話でCVへ導く。<br class="hidden md:block">
+                    <span class="mt-2 block font-bold">完全成果報酬型・CV特化チャットボット</span>
                 </p>
                 
                 <div class="bg-white p-5 rounded-2xl border border-gray-200 shadow-sm mb-10 flex flex-wrap items-center justify-between max-w-lg mx-auto lg:mx-0">
@@ -102,23 +99,29 @@
                 </div>
 
                 <a href="#cta" class="inline-flex items-center justify-center w-full sm:w-auto bg-brand-600 text-white text-center px-10 py-5 rounded-full font-bold text-lg hover:bg-brand-700 transition shadow-glow group">
-                    <span class="inline-block whitespace-nowrap">無料でCV改善を</span><span class="inline-block whitespace-nowrap">シミュレーション</span> <i class="fas fa-arrow-right ml-3 group-hover:translate-x-1 transition-transform"></i>
+                    無料で資料請求・お問い合わせ <i class="fas fa-arrow-right ml-3 group-hover:translate-x-1 transition-transform"></i>
                 </a>
-                <p class="text-xs text-gray-500 mt-4 ml-2"><i class="fas fa-lock mr-1 text-gray-400"></i> クレカ登録不要・わずか30秒で完了</p>
+                <p class="text-xs text-gray-500 mt-4 text-center sm:text-left ml-2"><i class="fas fa-lock mr-1 text-gray-400"></i> クレカ登録不要・わずか30秒で完了</p>
             </div>
             
             <div class="lg:col-span-5 relative mt-12 lg:mt-0 fade-in-up flex justify-center" style="animation-delay: 0.2s;">
                 <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-brand-400 rounded-full mix-blend-multiply filter blur-[80px] opacity-40 z-0"></div>
+                
                 <div class="absolute -top-6 -left-12 bg-white px-4 py-3 rounded-2xl shadow-float z-30 float-anim border border-gray-100 flex items-center gap-3">
                     <div class="w-10 h-10 bg-blue-50 rounded-full flex items-center justify-center text-blue-600"><i class="fas fa-chart-line text-lg"></i></div>
-                    <div><p class="text-[10px] font-bold text-gray-500">CVR改善率</p><p class="text-lg font-black text-gray-900">+150<span class="text-sm">%</span></p></div>
+                    <div>
+                        <p class="text-[10px] font-bold text-gray-500">CVR改善率</p>
+                        <p class="text-lg font-black text-gray-900">+<span class="counter-anim">150</span><span class="text-sm">%</span></p>
+                    </div>
                 </div>
+                
                 <div class="absolute 1/4 -right-10 bottom-20 bg-white px-5 py-3 rounded-2xl shadow-float z-30 float-anim-delay border border-gray-100">
                     <p class="text-[10px] font-bold text-gray-500 mb-1">離脱ユーザーを自動追客</p>
                     <div class="flex items-center gap-2">
                         <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div><p class="text-sm font-bold text-gray-900">1to1で接客中...</p>
                     </div>
                 </div>
+
                 <div class="mockup-phone-rich w-[320px] h-[640px] z-20 flex flex-col relative">
                     <div class="mockup-notch"></div>
                     <div class="bg-white text-gray-800 pt-10 pb-3 px-4 text-center font-bold shadow-sm relative z-10 flex items-center justify-between border-b border-gray-100">
@@ -163,17 +166,17 @@
 
     <section class="py-24 px-4 bg-white">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl md:text-4xl font-black mb-8 text-gray-900 leading-snug">
-                <span class="inline-block whitespace-nowrap">なぜ、あなたのLPは</span><wbr><span class="inline-block whitespace-nowrap">CVを取りこぼすのか？</span>
+            <h2 class="text-3xl md:text-4xl font-black mb-8 text-gray-900 leading-snug break-keep">
+                なぜ、あなたのLPは<br class="md:hidden">CVを取りこぼすのか？
             </h2>
             <div class="bg-gray-50 rounded-3xl p-8 md:p-12 border border-gray-100 shadow-sm text-left">
                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                    <span class="inline-block whitespace-nowrap">ボトルネックとしては、</span><strong><span class="inline-block whitespace-nowrap">「すぐ買わないユーザー」の</span><span class="inline-block whitespace-nowrap">インサイトを放置していること</span></strong><span class="inline-block whitespace-nowrap">です。</span><br>
-                    <span class="inline-block whitespace-nowrap">広告費をかけて</span><span class="inline-block whitespace-nowrap">月間何万というPVを集めても、</span><span class="inline-block whitespace-nowrap">現状CVしているのはほんの数%。</span><span class="inline-block whitespace-nowrap">残りの大多数は「興味はあったけど、今日じゃなかった」だけの</span><span class="inline-block whitespace-nowrap">潜在的な見込み顧客にすぎません。</span>
+                    ボトルネックとしては、<strong>「すぐ買わないユーザー」のインサイトを放置していること</strong>です。<br>
+                    広告費をかけて月間何万というPVを集めても、現状CVしているのはほんの数%。残りの大多数は「興味はあったけど、今日じゃなかった」だけの潜在的な見込み顧客にすぎません。
                 </p>
                 <div class="flex flex-col sm:flex-row items-center gap-4 bg-white p-4 rounded-xl border border-brand-100 shadow-sm">
                     <div class="w-12 h-12 bg-brand-100 rounded-full flex items-center justify-center text-brand-600 flex-shrink-0"><i class="fas fa-lightbulb text-xl"></i></div>
-                    <p class="text-gray-900 font-bold"><span class="inline-block whitespace-nowrap">チャットボットEXなら、</span><span class="inline-block whitespace-nowrap">この「未顧客」を1to1の会話で育成し、</span><span class="inline-block whitespace-nowrap">離脱理由を払拭して新たなCVを創出します。</span></p>
+                    <p class="text-gray-900 font-bold">チャットボットEXなら、この「未顧客」を1to1の会話で育成し、離脱理由を払拭して新たなCVを創出します。</p>
                 </div>
             </div>
         </div>
@@ -182,17 +185,17 @@
     <section class="py-24 px-4 bg-gray-50 border-y border-gray-200">
         <div class="max-w-5xl mx-auto">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-black mb-6 text-gray-900 leading-snug">
-                    <span class="inline-block whitespace-nowrap">「離脱」を「CV」に変える</span><wbr><span class="inline-block whitespace-nowrap text-brand-600">3つのステップ</span>
+                <h2 class="text-3xl md:text-4xl font-black mb-6 text-gray-900 leading-snug break-keep">
+                    「離脱」を「CV」に変える<br class="md:hidden"><span class="text-brand-600">3つのステップ</span>
                 </h2>
-                <p class="text-lg text-gray-600"><span class="inline-block whitespace-nowrap">属性ではなく「会話」でインサイトを取りに行き、</span><span class="inline-block whitespace-nowrap">その場でCVへ寄せます。</span></p>
+                <p class="text-lg text-gray-600">属性ではなく「会話」でインサイトを取りに行き、その場でCVへ寄せます。</p>
             </div>
             <div class="space-y-8">
                 <div class="flex flex-col md:flex-row gap-8 items-center bg-white p-8 md:p-10 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition">
                     <div class="md:w-1/3 flex justify-center"><div class="text-8xl font-black text-brand-50 tracking-tighter">01</div></div>
                     <div class="md:w-2/3 text-center md:text-left">
                         <div class="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-bold mb-3 tracking-widest uppercase">Catch</div>
-                        <h3 class="text-2xl font-bold mb-4 text-gray-900">離脱ポップアップ検知</h3>
+                        <h3 class="text-2xl font-bold mb-4 text-gray-900 break-keep">離脱ポップアップ検知</h3>
                         <p class="text-gray-600 leading-relaxed">ユーザーがLPから離脱しそうな動作を瞬時に検知。絶妙なタイミングでポップアップを表示し、取りこぼしていたユーザーをLINE友だち追加へ誘導します。</p>
                     </div>
                 </div>
@@ -200,7 +203,7 @@
                     <div class="md:w-1/3 flex justify-center"><div class="text-8xl font-black text-brand-50 tracking-tighter">02</div></div>
                     <div class="md:w-2/3 text-center md:text-left">
                         <div class="inline-block bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-bold mb-3 tracking-widest uppercase">Understand</div>
-                        <h3 class="text-2xl font-bold mb-4 text-gray-900">1to1 インサイト発掘対話</h3>
+                        <h3 class="text-2xl font-bold mb-4 text-gray-900 break-keep">1to1 インサイト発掘対話</h3>
                         <p class="text-gray-600 leading-relaxed">ただの一方的な自動応答ではありません。診断コンテンツなどを通じてユーザーの「悩み」や「ニーズ」を深くヒアリング。会話の結果をタグ付けし、インサイトを可視化します。</p>
                     </div>
                 </div>
@@ -208,7 +211,7 @@
                     <div class="md:w-1/3 flex justify-center"><div class="text-8xl font-black text-brand-50 tracking-tighter">03</div></div>
                     <div class="md:w-2/3 text-center md:text-left">
                         <div class="inline-block bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-bold mb-3 tracking-widest uppercase">Convert</div>
-                        <h3 class="text-2xl font-bold mb-4 text-gray-900">パーソナライズ＆CV再誘導</h3>
+                        <h3 class="text-2xl font-bold mb-4 text-gray-900 break-keep">パーソナライズ＆CV再誘導</h3>
                         <p class="text-gray-600 leading-relaxed">タグ情報をもとに、複雑な条件分岐で最適なメッセージや商品をレコメンド。ユーザーの不安をピンポイントで解消し、CVフォームへ強力に再誘導します。</p>
                     </div>
                 </div>
@@ -218,26 +221,26 @@
 
     <section class="py-24 px-4 bg-white">
         <div class="max-w-5xl mx-auto text-center">
-            <h2 class="text-3xl font-black mb-4 text-gray-900 leading-snug">
-                <span class="inline-block whitespace-nowrap">数字が証明する</span><wbr><span class="inline-block whitespace-nowrap">「一気通貫」の分析・改善力</span>
+            <h2 class="text-3xl font-black mb-4 text-gray-900 leading-snug break-keep">
+                数字が証明する<br class="md:hidden">「一気通貫」の分析・改善力
             </h2>
             <p class="text-gray-600 mb-16 max-w-2xl mx-auto">
-                <span class="inline-block whitespace-nowrap">チャットボットEXが選ばれる最大の理由は、</span><span class="inline-block whitespace-nowrap">運用に不可欠なデータ計測が「すべて揃っている」ことにあります。</span>
+                チャットボットEXが選ばれる最大の理由は、運用に不可欠なデータ計測が「すべて揃っている」ことにあります。
             </p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
                 <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
                     <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand-600 mb-6 text-xl"><i class="fas fa-funnel-dollar"></i></div>
-                    <h4 class="font-bold text-lg mb-3 leading-snug">PUからCVまで<br>一気通貫計測</h4>
+                    <h4 class="font-bold text-lg mb-3 leading-snug break-keep">PUからCVまで<br>一気通貫計測</h4>
                     <p class="text-sm text-gray-600">PV数から、表示率(IS)、クリック率(CTR)、流入率(IFR)、CVRまで分断なくダッシュボードで計測可能です。</p>
                 </div>
                 <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
                     <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand-600 mb-6 text-xl"><i class="fas fa-search-location"></i></div>
-                    <h4 class="font-bold text-lg mb-3 leading-snug">メッセージ単位の<br>離脱地点特定</h4>
+                    <h4 class="font-bold text-lg mb-3 leading-snug break-keep">メッセージ単位の<br>離脱地点特定</h4>
                     <p class="text-sm text-gray-600">シナリオのどの設問で回答が止まったかを可視化。改善ポイントを特定しやすく、最速でPDCAが回ります。</p>
                 </div>
                 <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
                     <div class="w-12 h-12 bg-white rounded-xl shadow-sm flex items-center justify-center text-brand-600 mb-6 text-xl"><i class="fas fa-vials"></i></div>
-                    <h4 class="font-bold text-lg mb-3 leading-snug">成果を最大化する<br>A/Bテスト</h4>
+                    <h4 class="font-bold text-lg mb-3 leading-snug break-keep">成果を最大化する<br>A/Bテスト</h4>
                     <p class="text-sm text-gray-600">ポップアップの訴求軸やビジュアル、初回メッセージ等でテストを実施し、友だち追加数とCVを最大化します。</p>
                 </div>
             </div>
@@ -247,11 +250,11 @@
     <section class="py-24 px-4 bg-gray-900 text-white relative overflow-hidden">
         <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#22c55e 1px, transparent 1px); background-size: 20px 20px;"></div>
         <div class="max-w-4xl mx-auto text-center relative z-10">
-            <h2 class="text-3xl md:text-4xl font-black mb-8 leading-tight">
-                <span class="inline-block whitespace-nowrap">ノーリスクで始められる。</span><wbr><span class="inline-block whitespace-nowrap">泥臭い運用は</span><span class="inline-block whitespace-nowrap text-brand-400 font-black">すべて丸投げ。</span>
+            <h2 class="text-3xl md:text-4xl font-black mb-8 leading-tight break-keep">
+                ノーリスクで始められる。<br>泥臭い運用は<span class="text-brand-400 font-black">すべて丸投げ。</span>
             </h2>
             <p class="text-gray-300 mb-12 text-lg leading-relaxed">
-                <span class="inline-block whitespace-nowrap">シナリオ設計や分析、</span><span class="inline-block whitespace-nowrap">改善施策の立案まで、</span><wbr><span class="inline-block whitespace-nowrap">成果を出すための運用は</span><span class="inline-block whitespace-nowrap">すべてプロチームが巻き取ります。</span>
+                シナリオ設計や分析、改善施策の立案まで、成果を出すための運用はすべてプロチームが巻き取ります。
             </p>
             <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-white/10 mb-10 text-left">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -267,8 +270,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="inline-block bg-white text-gray-900 px-8 py-5 rounded-2xl font-black text-xl shadow-2xl">
-                <span class="inline-block whitespace-nowrap">貴社の作業は</span> <span class="inline-block whitespace-nowrap text-brand-600 border-b-4 border-brand-200 pb-1">「LPへのタグ配置」</span> <span class="inline-block whitespace-nowrap">のみ。</span>
+            <div class="inline-block bg-white text-gray-900 px-8 py-5 rounded-2xl font-black text-xl shadow-2xl break-keep">
+                自社での作業は <span class="text-brand-600 border-b-4 border-brand-200 pb-1">「LPへのタグ配置」</span> のみ。
             </div>
         </div>
     </section>
@@ -278,36 +281,31 @@
             <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-brand-400 to-blue-500"></div>
             <div class="text-center mb-10">
                 <span class="bg-red-100 text-red-600 font-bold px-4 py-1.5 rounded-full text-sm mb-4 inline-block tracking-wider">完全無料・リスクゼロ</span>
-                <h2 class="text-3xl font-black mb-4 text-gray-900 leading-snug tracking-tighter">
-                    <span class="inline-block whitespace-nowrap">貴社の「隠れたCV数」を</span><wbr><span class="inline-block whitespace-nowrap">シミュレーションしませんか？</span>
+                <h2 class="text-3xl font-black mb-4 text-gray-900 leading-snug tracking-tighter break-keep">
+                    まずは無料で、<br class="hidden md:block">資料請求・お問い合わせ
                 </h2>
-                <p class="text-gray-500"><span class="inline-block whitespace-nowrap">現在の月間PV数から、</span><span class="inline-block whitespace-nowrap">どれくらいのCV増が見込めるかを算出します。</span></p>
+                <p class="text-gray-500">サービス詳細の資料請求や、自社サイトでの活用方法についてのご相談など、お気軽にお問い合わせください。</p>
             </div>
             <form class="flex flex-col gap-5 max-w-md mx-auto">
                 <div>
-                    <label class="block text-sm font-black text-gray-700 mb-2">月間のおおよそのPV数 <span class="text-red-500 font-bold">*</span></label>
-                    <div class="relative">
-                        <select class="w-full px-4 py-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-gray-50 appearance-none font-bold cursor-pointer">
-                            <option value="">PV数を選択してください</option>
-                            <option value="1-3">1万〜3万PV</option>
-                            <option value="3-5">3万〜5万PV</option>
-                            <option value="5-10">5万〜10万PV</option>
-                            <option value="10+">10万PV以上</option>
-                        </select>
-                        <i class="fas fa-chevron-down absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none"></i>
-                    </div>
+                    <label class="block text-sm font-black text-gray-700 mb-2">会社名 <span class="text-red-500 font-bold">*</span></label>
+                    <input type="text" placeholder="株式会社Algoage" class="w-full px-4 py-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-gray-50 font-bold">
+                </div>
+                <div>
+                    <label class="block text-sm font-black text-gray-700 mb-2">ご担当者様名 <span class="text-red-500 font-bold">*</span></label>
+                    <input type="text" placeholder="山田 太郎" class="w-full px-4 py-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-gray-50 font-bold">
                 </div>
                 <div>
                     <label class="block text-sm font-black text-gray-700 mb-2">会社用メールアドレス <span class="text-red-500 font-bold">*</span></label>
                     <input type="email" placeholder="example@company.com" class="w-full px-4 py-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-gray-50 font-bold">
                 </div>
-                <button type="button" class="w-full bg-brand-600 text-white font-black text-lg px-8 py-5 rounded-xl hover:bg-brand-700 transition mt-6 shadow-lg shadow-brand-500/30 flex justify-center items-center group">
-                    <span class="inline-block whitespace-nowrap">無料でCV改善を</span><span class="inline-block whitespace-nowrap">シミュレーションする</span> 
+                <button type="button" class="w-full bg-brand-600 text-white font-black text-lg px-8 py-5 rounded-xl hover:bg-brand-700 transition mt-6 shadow-lg shadow-brand-500/30 flex justify-center items-center group break-keep">
+                    無料で資料請求・お問い合わせ
                     <i class="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                 </button>
                 <div class="mt-4 flex flex-col sm:flex-row items-center justify-center text-xs text-gray-500 gap-2 sm:gap-4">
-                    <span class="inline-block whitespace-nowrap"><i class="fas fa-lock mr-1 text-gray-400"></i> クレカ登録不要</span>
-                    <span class="inline-block whitespace-nowrap"><i class="fas fa-clock mr-1 text-gray-400"></i> わずか30秒で完了</span>
+                    <span><i class="fas fa-lock mr-1 text-gray-400"></i> クレカ登録不要</span>
+                    <span><i class="fas fa-clock mr-1 text-gray-400"></i> わずか30秒で完了</span>
                 </div>
             </form>
         </div>
@@ -320,17 +318,27 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const counters = document.querySelectorAll('.text-3xl.font-black, .text-4xl.font-extrabold span, .text-lg.font-black span');
+            const counters = document.querySelectorAll('.counter-anim');
             counters.forEach(counter => {
                 const targetText = counter.innerText;
                 const targetNum = parseInt(targetText.replace(/[^0-9]/g, ''));
-                if (isNaN(targetNum)) return;
+                
+                if (isNaN(targetNum) || targetNum === 0) return;
+                
                 let count = 0;
                 const speed = 2000 / targetNum;
+                
                 const updateCount = () => {
-                    count++;
+                    count += Math.ceil(targetNum / 50); 
+                    if (count > targetNum) count = targetNum;
+                    
                     counter.innerText = count + (targetText.includes('%') ? '%' : '');
-                    if (count < targetNum) setTimeout(updateCount, speed);
+                    
+                    if (count < targetNum) {
+                        setTimeout(updateCount, 30);
+                    } else {
+                        counter.innerText = targetText;
+                    }
                 };
                 updateCount();
             });
